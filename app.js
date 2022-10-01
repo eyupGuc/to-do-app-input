@@ -17,6 +17,7 @@ cardBody.addEventListener("click", (e) => {
       ul.innerHTML += `<li class="list-group-item d-flex align-items-center justify-content-between  "><i class="fa-solid fa-check text-success"></i> ${input.value} <i class="fa-solid fa-trash text-danger"> </i></li> 
        `;
     }
+    input.value = "";
   }
 
   //   console.log(e.target);
